@@ -814,3 +814,115 @@ aside {
         font-size: 17px;
     }
 }
+
+
+
+.music-player {
+    background: rgba(14, 14, 14, 0.8);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(15px); /* Enhanced glassy effect */
+    border-radius: 15px; /* Rounded corners for a more elegant look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border: 1px solid rgba(255, 255, 255, 0.25); /* Subtle border for definition */
+    
+}
+  
+  .music-player-song {
+    display: flex;
+    align-items: center;
+  }
+  
+  .music-player-thumbnail img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .music-player-details {
+    flex-grow: 1;
+  }
+  
+  .song-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .artist-name {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .music-player-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .control-icon {
+    font-size: 24px;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  .player-controls i {
+    font-size: 24px;
+    margin: 0 15px;
+    cursor: pointer;
+  }
+  
+  .player-slider {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  .current-time,
+  .total-time {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .slider {
+    width: 100px;
+    margin: 0 15px;
+  }
+  
+  .volume-control {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  #volume-slider {
+    width: 60px;
+  }
+  
+  .music-player-extras {
+    align-items: flex-start;
+  }
+  
+  .music-player-extras i {
+    font-size: 24px;
+    margin: 0 15px;
+    cursor: pointer;
+  }
+
+  .music-player-extras {
+    display: flex; /* Ensures that child elements are aligned horizontally */
+    align-items: center;
+  }
+  
+  .volume-control {
+    display: flex; /* Aligns the volume icon and slider horizontally */
+    align-items: center;
+  }
+  
+  
+
+  
+  
